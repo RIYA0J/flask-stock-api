@@ -27,8 +27,8 @@ To get started, you need to clone this repository and install the required packa
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flask-stock-data-app.git
-   cd flask-stock-data-app
+   git clone https://github.com/yourusername/flask-stock-api.git
+   cd flask-stock-api
 2. Create a virtual environment (optional but recommended): python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
