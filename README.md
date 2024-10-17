@@ -6,11 +6,7 @@ A simple Flask application that fetches stock data from a third-party API. The a
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Running the Application](#running-the-application)
-- [Docker Support](#docker-support)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -38,7 +34,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 4. Install the required packages: pip install -r requirements.txt
 
-Usage
+### Usage
 Running Locally
 Set your API token in the stockdata.py file:
 API_TOKEN = "your_api_token_here"
@@ -47,7 +43,7 @@ python stockdata.py
 Open your browser and navigate to:
 http://localhost:5000/get-stock
 
-Contributing
+### Contributing
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
