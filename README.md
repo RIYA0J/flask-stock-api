@@ -36,18 +36,18 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 ### Usage
 Running Locally
-Set your API token in the stockdata.py file:
-API_TOKEN = "your_api_token_here"
-Start the Flask application:
-python stockdata.py
-Open your browser and navigate to:
-http://localhost:5000/get-stock
+1.Set your API token in the stockdata.py file:
+   API_TOKEN = "your_api_token_here"
+2.Start the Flask application:
+   python stockdata.py
+3.Open your browser and navigate to:
+   http://localhost:5000/get-stock
 
 ### Contributing
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Make your changes and commit (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/YourFeature).
-Create a new Pull Request.
+1.Fork the repository.
+2.Create a new branch (git checkout -b feature/YourFeature).
+3.Make your changes and commit (git commit -m 'Add some feature').
+4.Push to the branch (git push origin feature/YourFeature).
+5.Create a new Pull Request.
