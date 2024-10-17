@@ -5,7 +5,7 @@ app = Flask("stockdata")
 
 # Stock Data API Endpoint and API Token
 STOCK_API_URL = "https://api.stockdata.org/v1/data/quote"
-API_TOKEN = "dafbLhdAVmEADeBOwnMidzmA7XVcggHFaKjaKSkK"  # Replace with your actual API token
+API_TOKEN = "YOUR_API_KEY_HERE"  # Replace with your actual API token
 DEFAULT_SYMBOL = "AAPL"
 
 @app.route('/get-stock', methods=['GET'])
